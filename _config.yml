@@ -1,18 +1,17 @@
 # Site settings
 title: Jekyll-Uno
 description: 'Jekyll-Uno - a minimal, responsive theme for Jekyll'
-url: 'http://joshgerdes.com/jekyll-uno'
-baseurl: '/jekyll-uno'
+url: 'https:/ashwinkey04.github.io/jekyll-uno'
+baseurl: /jekyll-uno
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
 
 author:
-  name: 'Josh Gerdes'
-  email: josh@joshgerdes.com
-  twitter_username: joshgerdes
-  facebook_username: joshgerdes
-  github_username:  joshgerdes
-  linkedin_username:  joshgerdes
+  name: 'Ashwin'
+  email: ashwinkey04@gmail.com
+  twitter_username: ashwinkey04
+  github_username:  ashwinkey04
+  linkedin_username:  ashwinkey04
 
 defaults:
   -
