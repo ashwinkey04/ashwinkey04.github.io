@@ -1,8 +1,8 @@
 # Site settings
 title: Ashwin Ramakrishnan
 description: 'Android developer | Problem Solver'
-url: 'https://ashwinkey04.github.io/jekyll-uno'
-baseurl: /jekyll-uno
+url: 'https://ashwinkey04.github.io/home'
+baseurl: /home
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
 
