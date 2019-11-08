@@ -41,7 +41,26 @@ Now we have to mention which commits to squash. Here, I squash the two recent co
 
 ![squash window](https://raw.githubusercontent.com/ashwinkey04/ashwinkey04.github.io/master/images/squashpost/rebase%20squashed.png)
 
+The text editor shown may vary depending on your operating system. To save files in nano, press Ctrl+X and then 'Y'. Now press Ctrl+T and choose the file you want to save to using the arrow keys. In this case, the file name is git-rebase-todo. After saving this file, the interactive rebase console will open up another file with the commit messages. 
 
+![commit unchanged](https://raw.githubusercontent.com/ashwinkey04/ashwinkey04.github.io/master/images/squashpost/commitb4.png)
 
+You can edit the top most commit message (which is the commit under which your squashing) such that it describes the feature you are adding maybe. I have now changed my commit message as shown below. 
 
-THIS BLOG POST IS UNDER CONSTRUCTION. PLEASE CHECK BACK LATER FOR THE COMPLETE POST
+![changed commit](https://raw.githubusercontent.com/ashwinkey04/ashwinkey04.github.io/master/images/squashpost/commitafr.png)
+
+> Pro tip: If you comment out the messages of the commits you are going to squash, the commits page in github will not show the squashed commits under the dotted button as shown in the second image, instead replaces all of those with just one commit. This was a mistake I did, but it turned out to look better ;)
+
+Now save this file like you did for the rebase file. You will be back to the terminal with a message similar to this.
+
+![rebase term](https://raw.githubusercontent.com/ashwinkey04/ashwinkey04.github.io/master/images/squashpost/afterrebase.png)
+
+Now force push the changes using the command
+
+```git push -f```
+
+![push term](https://raw.githubusercontent.com/ashwinkey04/ashwinkey04.github.io/master/images/squashpost/push.png)
+
+Congratulations!!! You have squashed your commits into one single commit. Head over to your commits page in github repository and feel proud :)
+
+![finish squash](https://raw.githubusercontent.com/ashwinkey04/ashwinkey04.github.io/master/images/squashpost/donesquash.png)
