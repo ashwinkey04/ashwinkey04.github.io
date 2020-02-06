@@ -43,6 +43,9 @@ Now we have to mention which commits to squash. Here, I squash the two recent co
 
 The text editor shown may vary depending on your operating system. To save files in nano, press Ctrl+X and then 'Y'. Now press Ctrl+T and choose the file you want to save to using the arrow keys. In this case, the file name is git-rebase-todo. After saving this file, the interactive rebase console will open up another file with the commit messages. 
 
+> Just in case you change your mind at any point and you do not want to proceed with squashing your commits, just run this command
+```git rebase --abort```
+
 ![commit unchanged](https://raw.githubusercontent.com/ashwinkey04/ashwinkey04.github.io/master/images/squashpost/commitb4.png)
 
 You can edit the top most commit message (which is the commit under which your squashing) such that it describes the feature you are adding maybe. I have now changed my commit message as shown below. 
