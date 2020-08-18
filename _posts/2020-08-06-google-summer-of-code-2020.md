@@ -50,7 +50,7 @@ Null type is integrated into the language's type system itself. So it is not nec
 16.  `commonTest` and `androidTest` classes
 
 #### [API Matrix](https://docs.google.com/spreadsheets/d/1gR84jZzLF-mM0iRw5JyeMAsHMK6RQPK0vyDmNAY9VhE/edit?usp=sharing):
-<img src="https://raw.githubusercontent.com/ashwinkey04/ashwinkey04.github.io/master/images/post_gsoc/api_matrix.png" width = 900>
+<img src="https://raw.githubusercontent.com/ashwinkey04/ashwinkey04.github.io/master/images/post_gsoc/api_matrix.png" width = 1200>
 
 - Compiled and organized all the APIs consumed by Mifos mobile and organized in a google sheet for future reference
 
