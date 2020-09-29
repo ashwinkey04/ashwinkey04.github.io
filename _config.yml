@@ -1,9 +1,9 @@
 # Site settings
 title: Ashwin Ramakrishnan
-description: 'Google Summer of Code-20 with The Mifos Initiative | \nAndroid developer | Problem Solver'
+description: 'Google Summer of Code-20 with The Mifos Initiative | Android developer | Problem Solver'
 url: 'https://ashwinkey04.github.io/'
 baseurl: /
-# google_analytics: 'UA-XXXXXX-X'
+google_analytics: 'UA-151591753-1'
 # disqus_shortname: 'your-disqus-name'
 
 author:
